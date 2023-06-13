@@ -18,13 +18,13 @@ function iniciarButton() {
 
         let resultado;
 
-        if (operacion === "+" || "suma") {
+        if (operacion === "+" || operacion === "suma") {
             resultado = num1 + num2;
-        } else if (operacion === "-" || "resta") {
+        } else if (operacion === "-" || operacion === "resta") {
             resultado = num1 - num2;
-        } else if (operacion === "*" || "x" || "multiplicacion") {
+        } else if (operacion === "*" || operacion === "x" || operacion === "multiplicacion") {
             resultado = num1 * num2;
-        } else if (operacion === "/" || "division") {
+        } else if (operacion === "/" || operacion === "division") {
             resultado = num1 / num2;
         } else {
             alert("Operación no válida");
