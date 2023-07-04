@@ -1,4 +1,4 @@
-const btnCuadro = document.getElementById("btnCuadro")
+const btnCalcu = document.getElementById("btnCalcu")
 
 function obtenerNumeros() {
     let num1;
@@ -20,7 +20,7 @@ function obtenerNumeros() {
 }
 
 
-btnCuadro.addEventListener("click", () => {
+btnCalcu.addEventListener("click", () => {
 
     //Cuadro pide Nombre
     let nombre = prompt("Introduce tu nombre")
@@ -122,7 +122,7 @@ btnCuadro.addEventListener("click", () => {
             {
                 let opcion;
                 do {
-                    opcion = prompt("¿Qué deseas hacer ahora? 1. Aplicar otro descuento, 2. Realizar otra operación, 3. Cerrar");
+                    opcion = prompt("¿Qué deseas hacer ahora? 1. Aplicar otro descuento, 2. Realizar otra operación, 3. Continuar");
                     if (opcion === "1") {
                         tries = 0;
                         codigoOK = false;
@@ -135,6 +135,7 @@ btnCuadro.addEventListener("click", () => {
                         alert("Opción no válida. Por favor, selecciona una opción válida.");
                     }
                 } while (opcion !== "1" && opcion !== "2" && opcion !== "3");
+                console.log(resultado)
             }
         }
     }

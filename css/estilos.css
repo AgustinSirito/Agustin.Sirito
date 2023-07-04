@@ -12,9 +12,11 @@ body {
 
 .container {
   text-align: center;
-  padding: 5px 15px;
+  padding: 5px 10px;
   border: 2px #00851d solid;
   border-radius: 5px;
+  height: 90vh;
+  width: 80vh;
   background-color: rgba(255, 255, 255, 0.568);
   display: flex;
   flex-direction: column;
@@ -54,4 +56,49 @@ button {
 
 button:hover {
   background-color: #005212;
+}
+
+
+/* cuadro de búsqueda */
+.buscarInput {
+  padding: 10px;
+  margin-top: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* botón de búsqueda */
+.botonBuscar {
+  padding: 10px 20px;
+  background-color: #00851d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* hover de boton de busqueda */
+.botonBuscar:hover {
+  background-color: #005212;
+}
+
+/* lista de resultados */
+.listaDeBusqueda {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* lista de resultados elementos */
+.listaDeBusqueda li {
+  width: 45%; !important  
+  padding: 10px;
+  border: 2px #00851d solid;
+  border-radius: 5px;
+  text-align: left;
+  backg
 }
