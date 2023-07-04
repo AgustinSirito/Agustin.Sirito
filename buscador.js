@@ -46,7 +46,9 @@ function searchItems() {
     listaDeBusqueda.innerHTML = ""; // Limpiar los resultados anteriores
 
     const resultadoDeBusqueda = [...plantas, ...accesorios].filter(item =>
-        item.nombre.toLowerCase().includes(filter) || item.descripcion.toLowerCase().includes(filter)
+        item.nombre.toLowerCase().includes(filter) || 
+        item.descripcion.toLowerCase().includes(filter) ||
+        item.tipo.toLowerCase().includes(filter)
     );
 
     if (resultadoDeBusqueda.length > 0) {
