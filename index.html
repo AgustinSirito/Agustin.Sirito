@@ -13,28 +13,22 @@
       <h1>Bienvenidos a Magus</h1>
       <h2>Tu vivero virtual</h2>
       <h3>Venta de suculentas y accesorios</h3>
-      <button id="btnCalcu">calculadora de carro</button>
-      <button id="btnComprar">Comprar</button>
-      <input type="text" id="buscarInput" class="buscarInput" placeholder="Buscar">
-      <button id="botonBuscar" class="botonBuscar">Buscar</button>
-      <ul id="listaDeBusqueda" class="listaDeBusqueda"></ul>
-      <script>
-        document.getElementById("btnCalcu").addEventListener("click", function() {
-          // Lógica para el botón "calculadora de carro"
-        });
-
-        document.getElementById("btnComprar").addEventListener("click", function() {
-          // Lógica para el botón "Comprar"
-        });
-
-        document.getElementById("botonBuscar").addEventListener("click", function() {
-          searchItems(); // Llama a la función searchItems() al hacer clic en el botón "Buscar"
-        });
-        
-      </script>
-      <script src="./javascript.js"></script>
-      <script src="./btnComprar.js"></script>
-      <script src="./buscador.js"></script>
+      <!-- <button id="btnCalcu">calculadora de carro</button>
+      <button id="btnComprar">Comprar</button> -->
+      <!-- <input type="text" id="buscarInput" class="buscarInput" placeholder="Buscar"> -->
+      <!-- <button id="botonBuscar" class="botonBuscar">Buscar</button> -->
+      <div id="listaDeBusqueda" class="listaDeBusqueda">
+      </div>
+      <button id="botonDebug" class="botonBuscar">Comprar</button>
+      <div id="resumen" class="hide">
+        <h1>Resumen de compra</h1>
+        <table id="resumenDeCompra">
+        </table>
+      </div>
+      <!-- <script src="./javascript.js"></script> -->
+      <!-- <script src="./btnComprar.js"></script>
+      <script src="./buscador.js"></script> -->
+      <script src="./listaDeBusqueda.js"></script>
       <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> -->
     </div>
   </body>
