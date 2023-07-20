@@ -1,0 +1,50 @@
+{
+    "productos":[
+        {
+            "id":1,
+            "tipo":"planta", 
+            "nombre":"Suculenta Haworthia", 
+            "descripcion":"Pequeña planta suculenta", 
+            "precio": 10.5,
+            "stock":  5, 
+            "size": "Pequeño"
+        },
+        {
+            "id":2,
+            "tipo":"helecho", 
+            "nombre":"Helecho Nephrolepis exaltata", 
+            "descripcion":"Helecho colgante", 
+            "precio": 15.0,
+            "stock":  4, 
+            "size": "Mediano"
+        },
+        {
+            "id":3,
+            "tipo":"Orquídea", 
+            "nombre":"Orquídea Phalaenopsis", 
+            "descripcion":"Orquídea de flores grandes", 
+            "precio": 20.75,
+            "stock":  4, 
+            "size": "Grande"
+        },
+        {
+            "id":4,
+            "tipo":"trepadora", 
+            "nombre":"Poto Epipremnum aureum", 
+            "descripcion":"Planta trepadora de hojas verdes", 
+            "precio": 12.99,
+            "stock":  2, 
+            "size": "Mediano"
+        },
+        {
+            "id":5,
+            "tipo":"suculenta", 
+            "nombre":"Cactus Echinocactus grusonii", 
+            "descripcion":"Orquídea de flores grandes", 
+            "precio": 20.75,
+            "stock":  4, 
+            "size": "Grande"
+        }
+        
+    ]
+}
