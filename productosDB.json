@@ -2,12 +2,13 @@
     "productos":[
         {
             "id":1,
-            "tipo":"planta", 
+            "tipo":"suculenta", 
             "nombre":"Suculenta Haworthia", 
             "descripcion":"Pequeña planta suculenta", 
             "precio": 10.5,
             "stock":  5, 
-            "size": "Pequeño"
+            "size": "Pequeño",
+            "imagen": "./img/Haworthia.jpg"
         },
         {
             "id":2,
@@ -16,7 +17,8 @@
             "descripcion":"Helecho colgante", 
             "precio": 15.0,
             "stock":  4, 
-            "size": "Mediano"
+            "size": "Mediano",
+            "imagen": "./img/Nephrolepis.jpg"
         },
         {
             "id":3,
@@ -25,7 +27,8 @@
             "descripcion":"Orquídea de flores grandes", 
             "precio": 20.75,
             "stock":  4, 
-            "size": "Grande"
+            "size": "Grande",
+            "imagen": "./img/phalaenopsis.jpg"
         },
         {
             "id":4,
@@ -34,17 +37,18 @@
             "descripcion":"Planta trepadora de hojas verdes", 
             "precio": 12.99,
             "stock":  2, 
-            "size": "Mediano"
+            "size": "Mediano",
+            "imagen": "./img/epipremnum.png"
         },
         {
             "id":5,
-            "tipo":"suculenta", 
+            "tipo":"cactus", 
             "nombre":"Cactus Echinocactus grusonii", 
             "descripcion":"Orquídea de flores grandes", 
             "precio": 20.75,
             "stock":  4, 
-            "size": "Grande"
+            "size": "Grande",
+            "imagen": "./img/Echinocactus.jpeg"
         }
-        
     ]
 }
