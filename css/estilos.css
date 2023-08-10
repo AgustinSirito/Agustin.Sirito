@@ -1,7 +1,5 @@
 body {
-  background-image: url(../img/Backinicio.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../img/Backinicio.jpg) no-repeat center center fixed; 
   background-color: #f4f4f4;
   font-family: Arial, sans-serif;
   display: flex;
@@ -25,7 +23,7 @@ body {
 
 h1 {
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   color: #00851d;
 }
 
@@ -58,32 +56,8 @@ button:hover {
 }
 
 
-/* cuadro de búsqueda */
-.buscarInput {
-  padding: 10px;
-  margin-top: 50px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  outline: none;
-}
-
-/* botón de búsqueda */
-.botonBuscar {
-  padding: 10px 20px;
-  background-color: #00851d;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-/* hover de boton de busqueda */
-.botonBuscar:hover {
-  background-color: #005212;
-}
-
 /* lista de resultados */
-.listaDeBusqueda {
+.listaDeplantas {
   list-style: none;
   padding: 0;
   font-size: 15px;
@@ -93,7 +67,7 @@ button:hover {
 }
 
 /* lista de resultados elementos */
-.listaDeBusqueda li {
+.listaDeplantas li {
   width: 45%; !important  
   padding: 10px;
   border: 2px #00851d solid;
@@ -108,6 +82,12 @@ button:hover {
   border-radius: 5px;
   margin: 10px;
   padding: 10px;
+ 
+}
+
+.card:hover{
+  scale: 1.05;
+  background-color: rgba(71, 133, 80, 0.5);
 }
 
 .card input{
@@ -131,4 +111,29 @@ button:hover {
 
 #resumen{
   margin-bottom: 60px;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  padding: 8px;
+}
+
+tr:nth-child(even){
+  background-color: #ffffff71;
+}
+
+tr:hover {
+  background-color: rgba(71, 133, 80, 0.2);
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
 }

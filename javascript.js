@@ -42,7 +42,7 @@ function renderizarListaProductos(){
     for(let planta of plantas){
         listaDeProductos += planta.gethtml()
     }
-    document.getElementById("listaDeBusqueda").innerHTML = listaDeProductos
+    document.getElementById("listaDeplantas").innerHTML = listaDeProductos
 }
 
 function actualizarListaComprasAnteriores(){
